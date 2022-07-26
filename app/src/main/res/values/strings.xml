@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">BatmanApp</string>
+    <string name="movieEntities">Movies</string>
+    <string name="favorite_videos">Favorites</string>
+    <string name="receiving_data">Receiving data</string>
+    <string name="ten">10</string>
+    <string name="actors">Actors : %s</string>
+    <string name="country">Country : %s</string>
+    <string name="year">Year : %s</string>
+    <string name="imdb_rate">%s/</string>
+    <string name="no_batman_movie">No more Batman Movie</string>
+    <string name="check_internet_connection">Could not reach to server check internet connection</string>
+    <string name="no_batman_details">No more details!</string>
 </resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_page_half"
+    android:layout_marginRight="@dimen/margin_page_half"
+    android:id="@+id/layoutCategoryItem">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvGenre"
+        android:textColor="@android:color/white"
+        android:padding="@dimen/margin_page_half"
+        android:background="@drawable/shape_bg_genre"/>
+
+</LinearLayout>
