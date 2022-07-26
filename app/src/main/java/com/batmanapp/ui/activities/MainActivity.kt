@@ -20,7 +20,6 @@ import com.batmanapp.models.response.GetBatmanMovies
 import com.batmanapp.ui.AppViewModel
 import com.batmanapp.ui.adapter.MovieAdapter
 import com.batmanapp.ui.customs.NoItem
-import com.batmanapp.ui.fragments.MoviesFragment
 import com.example.filmnettest.ui.customs.Loading
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.activity_main.*
