@@ -7,7 +7,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.lifecycleScope
 import com.batmanapp.R
-import com.batmanapp.Utils
 import com.batmanapp.Utils.Companion.handleApiError
 import com.batmanapp.data.db.entities.MovieDetailsEntity
 import com.batmanapp.data.remote.Resource
@@ -16,7 +15,6 @@ import com.batmanapp.ui.AppViewModel
 import com.batmanapp.ui.customs.NoItem
 import com.bumptech.glide.RequestManager
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_movie_detail.*
 import kotlinx.android.synthetic.main.activity_movie_detail.layoutRoot
 import kotlinx.android.synthetic.main.adapter_genre.view.*
@@ -112,7 +110,7 @@ class MovieDetailsActivity : AppCompatActivity() {
 
     private fun showNoMoreDetails(){
         noMore = NoItem.newInstance(layoutRoot)
-        noMore!!.setImage(R.drawable.pic_no_more)
+        noMore!!.setImage(R.drawable.pic_batman)
             .setTitle(getString(R.string.no_batman_details))
             .show()
     }

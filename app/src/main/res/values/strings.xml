@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BatmanApp</string>
+    <string name="app_name">Batman App</string>
     <string name="movieEntities">Movies</string>
     <string name="favorite_videos">Favorites</string>
     <string name="receiving_data">Receiving data</string>
@@ -11,4 +11,5 @@
     <string name="no_batman_movie">No more Batman Movie</string>
     <string name="check_internet_connection">Could not reach to server check internet connection</string>
     <string name="no_batman_details">No more details!</string>
+    <string name="app_version">App Version : %s</string>
 </resources>

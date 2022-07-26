@@ -23,6 +23,7 @@
         android:id="@+id/tvHeaderTitle"
         android:padding="10dp"
         android:textColor="@color/yellow"
+        android:textStyle="bold"
         android:textSize="@dimen/title_size"
         android:singleLine="true"/>
 
